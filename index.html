@@ -27,12 +27,8 @@
     <nav class="navbar navbar-expand-lg navbar-dark scrolling-navbar fixed-top">
       <div class="container-fluid">
         <!-- Brand -->
-        <a
-          class="navbar-brand"
-          href="https://alajounion.com/home/"
-          target="_self"
-        >
-          <h2 class=company-name>
+        <a class="navbar-brand" href="https://alajounion.com" target="_self">
+          <h2 class="company-name">
             <strong>ALAJOUNION</strong>
           </h2>
         </a>
@@ -52,28 +48,30 @@
 
         <!-- Links -->
         <div
-          style="margin-left: 7em;"
+          style="margin-left: 5em;"
           class="collapse navbar-collapse"
           id="navbarSupportedContent"
         >
           <!-- Left -->
           <ul class="navbar-nav mr-auto menu">
-            <li style="margin-right: 2em;" class="nav-item active text-nowrap">
+            <li            
+              class="nav-item active menu-spacing text-nowrap"
+            >
               <a class="nav-link" href="#home"
                 >Home
                 <span class="sr-only">(current)</span>
               </a>
             </li>
-            <li style="margin-right: 2em;" class="nav-item text-nowrap">
+            <li class="nav-item menu-spacing text-nowrap">
               <a class="nav-link" href="#about-us">About Us </a>
             </li>
-            <li style="margin-right: 2em;" class="nav-item text-nowrap">
+            <li class="nav-item menu-spacing text-nowrap">
               <a class="nav-link" href="#features">Features </a>
             </li>
-            <li style="margin-right: 2em;" class="nav-item text-nowrap">
+            <li class="nav-item menu-spacing text-nowrap">
               <a class="nav-link" href="#work-with-us">Work with us </a>
             </li>
-            <li style="margin-right: 2em;" class="nav-item text-nowrap">
+            <li class="nav-item menu-spacing text-nowrap">
               <a class="nav-link" href="#pricing">Pricing </a>
             </li>
           </ul>
@@ -134,7 +132,7 @@
       >
         <!-- Content -->
         <div class="text-center white-text mx-5 wow fadeIn">
-          <h1 class="caption">
+          <h1 class="caption d-none d-md-block">
             <strong> Bringing your Cooperative Data to your finger tips</strong>
           </h1>
 
@@ -272,7 +270,7 @@
         // If the count down is finished, write some text
         if (distance < 0) {
           clearInterval(x);
-          document.getElementById("time-counter").innerHTML = "LAUNCHED";
+          document.getElementById("time-counter").innerHTML = "LAUNCHED!!!";
         }
       }, 1000);
     </script>
