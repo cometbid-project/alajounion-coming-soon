@@ -13,6 +13,9 @@ header,
     margin-top: 1em;
     height: 1000px;
   }
+  .social {
+    margin-left: 0.2em !important;
+  }
   .menu {
     margin-left: 0.2em !important;
     font-size: medium;
@@ -30,6 +33,9 @@ header,
   .view {
     margin-top: 2em;
     height: 850px;
+  }
+  .social {
+    margin-left: 0.2em !important;
   }
   .menu {
     margin-left: 0.2em !important;
@@ -71,6 +77,13 @@ header,
   .view {
     height: 600px;
   }
+  .menu {
+    margin-left: 1.2em !important;
+    font-size: large;
+  }
+  .social {
+    margin-left: 1.2em !important;
+  }
 }
 
 @media (min-width: 800px) and (max-width: 850px) {
@@ -82,6 +95,13 @@ header,
   }
   .navbar:not(.top-nav-collapse) {
     background: #1c2331 !important;
+  }
+  .menu {
+    margin-left: 1.5em !important;
+    font-size: large;
+  }
+  .social {
+    margin-left: 1.5em !important;
   }
 }
 
@@ -127,15 +147,15 @@ header,
   }
   .company-name {
     font-size: 2.5em !important;
-    margin-right: 1.0em;
-    margin-left: 1.0em;
+    margin-right: 1em;
+    margin-left: 1em;
   }
   .menu {
-    margin-left: 5em !important;
+    margin-left: 4em !important;
     font-size: x-large;
   }
   .menu-spacing {
-    margin-right: 2em !important;
+    margin-right: 1.5em !important;
   }
 }
 
@@ -163,8 +183,7 @@ header,
   font-size: 2em;
   padding-top: 1em;
 }
-
-.company-name {
+.company-name {  
   font-size: 2em;
   margin-right: 0.1em;
 }
