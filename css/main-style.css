@@ -5,30 +5,51 @@ header,
   height: 100%;
 }
 
-@media (max-width: 559px) {
+@media (max-width: 320px) {
   html,
   body,
   header,
   .view {
     margin-top: 1em;
-    height: 1100px;
+    height: 1000px;
   }
   .menu {
+    margin-left: 0.2em !important;
     font-size: medium;
   }
-  .caption {
-    font-size: 2em;
+  .company-name {
+    font-size: 1.6em !important;
+    margin-right: 0.1em;
   }
 }
 
-@media (min-width: 560px) and (max-width: 740px) {
+@media (min-width: 330px) and (max-width: 559px) {
   html,
   body,
   header,
   .view {
-    height: 700px;
+    margin-top: 2em;
+    height: 850px;
   }
   .menu {
+    margin-left: 0.2em !important;
+    font-size: medium;
+  }
+  .company-name {
+    font-size: 1.6em !important;
+    margin-right: 0.1em;
+  }
+}
+
+@media (min-width: 560px) and (max-width: 780px) {
+  html,
+  body,
+  header,
+  .view {
+    height: 900px;
+  }
+  .menu {
+    margin-left: 1em !important;
     font-size: large;
   }
   .caption {
@@ -37,6 +58,9 @@ header,
   .company-name {
     font-size: 1em;
     margin-right: 0.1em;
+  }
+  .social {
+    margin-left: 1em !important;
   }
 }
 
@@ -50,14 +74,68 @@ header,
 }
 
 @media (min-width: 800px) and (max-width: 850px) {
+  html,
+  body,
+  header,
+  .view {
+    height: 700px;
+  }
   .navbar:not(.top-nav-collapse) {
     background: #1c2331 !important;
   }
 }
 
-@media (min-width: 850px) and (max-width: 1024px) {
-  .navbar:not(.top-nav-collapse) {
-    background: #1c2331 !important;
+@media (min-width: 851px) and (max-width: 1024px) {
+  html,
+  body,
+  header,
+  .view {
+    height: 1160px;
+  }
+  .social {
+    display: none;
+  }
+  .menu {
+    margin-left: 2em !important;
+  }
+  .menu-spacing {
+    margin-right: 1em !important;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  html,
+  body,
+  header,
+  .view {
+    height: 800px;
+  }
+  .menu {
+    margin-left: 2.5em !important;
+  }
+  .menu-spacing {
+    margin-right: 1em !important;
+  }
+}
+
+@media (min-width: 1281px) {
+  html,
+  body,
+  header,
+  .view {
+    height: 820px;
+  }
+  .company-name {
+    font-size: 2.5em !important;
+    margin-right: 1.0em;
+    margin-left: 1.0em;
+  }
+  .menu {
+    margin-left: 5em !important;
+    font-size: x-large;
+  }
+  .menu-spacing {
+    margin-right: 2em !important;
   }
 }
 
@@ -74,9 +152,11 @@ header,
 }
 .menu {
   font-size: x-large;
+  margin-left: 4em;
 }
 .caption {
-  font-size: 5em;
+  padding-top: 2em;
+  font-size: 4em;
 }
 
 .footer-caption {
