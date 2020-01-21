@@ -1,0 +1,85 @@
+html,
+body,
+header,
+.view {
+  height: 100%;
+}
+
+@media (max-width: 559px) {
+  html,
+  body,
+  header,
+  .view {
+    height: 1000px;
+  }
+  .menu {
+    font-size: large;
+  }
+
+  .caption {
+    font-size: 3em;
+  }
+}
+
+@media (min-width: 560px) and (max-width: 740px) {
+  html,
+  body,
+  header,
+  .view {
+    height: 700px;
+  }
+  .menu {
+    font-size: large;
+  }
+
+  .caption {
+    font-size: 3em;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 850px) {
+  html,
+  body,
+  header,
+  .view {
+    height: 600px;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 850px) {
+  .navbar:not(.top-nav-collapse) {
+    background: #1c2331 !important;
+  }
+}
+
+.social {
+  /* */
+}
+
+.social li .fab:hover {
+  transition: 1s;
+  transform: scale(1.5);
+  color: #ddd;
+}
+
+.social li .fab {
+  transition: 0.9s;
+}
+
+.menu {
+  font-size: x-large;
+}
+
+.caption {
+  font-size: 5em;
+}
+
+.footer-caption {
+  font-size: 2em;
+  padding-top: 1em;
+}
+
+.company-name {
+  font-size: 2.5em;
+  padding-left: 0.7em;
+}
