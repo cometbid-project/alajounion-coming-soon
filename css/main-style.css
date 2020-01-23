@@ -13,9 +13,6 @@ header,
     margin-top: 1em;
     height: 1000px;
   }
-  .social {
-    margin-left: 0.2em !important;
-  }
   .menu {
     margin-left: 0.2em !important;
     font-size: medium;
@@ -23,6 +20,12 @@ header,
   .company-name {
     font-size: 1.6em !important;
     margin-right: 0.1em;
+  }
+  .signin-icon {
+    margin-left: 0.1em !important;
+  }
+  .signin-text {
+    font-size: x-large !important;
   }
 }
 
@@ -34,9 +37,6 @@ header,
     margin-top: 2em;
     height: 850px;
   }
-  .social {
-    margin-left: 0.2em !important;
-  }
   .menu {
     margin-left: 0.2em !important;
     font-size: medium;
@@ -44,6 +44,12 @@ header,
   .company-name {
     font-size: 1.6em !important;
     margin-right: 0.1em;
+  }
+  .signin-icon {
+    margin-left: 0.1em !important;
+  }
+  .signin-text {
+    font-size: x-large !important;
   }
 }
 
@@ -65,8 +71,11 @@ header,
     font-size: 1em;
     margin-right: 0.1em;
   }
-  .social {
-    margin-left: 1em !important;
+  .signin-icon {
+    margin-left: 0.7em !important;
+  }
+  .signin-text {
+    font-size: x-large !important;
   }
 }
 
@@ -115,6 +124,12 @@ header,
   .social {
     display: none;
   }
+  .menu-text {
+    display: none;
+  }
+  .signin-text {
+    display: none;
+  }
   .menu {
     margin-left: 2em !important;
   }
@@ -130,11 +145,20 @@ header,
   .view {
     height: 800px;
   }
+  .company-name {
+    font-size: 2em !important;
+    margin-right: 1em;
+    margin-left: 0.5em;
+  }
+  .signin-text {
+    display: none;
+  }
   .menu {
-    margin-left: 2.5em !important;
+    margin-left: 1.5em !important;
+    font-size: medium !important;
   }
   .menu-spacing {
-    margin-right: 1em !important;
+    margin-right: 0.1em !important;
   }
 }
 
@@ -146,16 +170,19 @@ header,
     height: 820px;
   }
   .company-name {
-    font-size: 2.5em !important;
+    font-size: 2.2em !important;
     margin-right: 1em;
-    margin-left: 1em;
+    margin-left: 0.5em;
+  }
+  .signin-text {
+    display: none;
   }
   .menu {
-    margin-left: 4em !important;
-    font-size: x-large;
+    margin-left: 2em !important;
+    font-size: large;
   }
   .menu-spacing {
-    margin-right: 1.5em !important;
+    margin-right: 0.1em !important;
   }
 }
 
@@ -183,11 +210,13 @@ header,
   font-size: 2em;
   padding-top: 1em;
 }
-.company-name {  
+.company-name {
   font-size: 2em;
   margin-right: 0.1em;
 }
-
+.menu-text {
+  margin-left: 0.1em !important;
+}
 .menu-spacing {
-  margin-right: 1.5em;
+  margin-right: 1em;
 }
